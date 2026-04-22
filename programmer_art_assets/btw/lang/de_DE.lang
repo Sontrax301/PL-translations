@@ -48,7 +48,7 @@ tile.fcBlockUnfiredPottery.vase.name=Ungebrannte Vase
 tile.fcBlockUnfiredPottery.urn.name=Ungebrannte Urne
 tile.fcBlockUnfiredPottery.mould.name=Ungebrannte Form
 tile.fcBlockCrucible.name=Schmelztiegel
-tile.fcBlockPlanter.name=Planzentopf
+tile.fcBlockPlanter.name=Pflanzentopf
 tile.fcBlockVase.name=Vase
 tile.fcBlockDetectorRailWood.name=Sensorschiene
 tile.fcBlockDetectorRailSoulforgedSteel.name=Sensorschiene
@@ -1244,6 +1244,9 @@ achievement.btw.find_blaze_rod.desc=Erleichtere eine Lohe um ihre Rute
 
 achievement.btw.locate_fortress_with_pile=Das Flüstern der Festung
 achievement.btw.locate_fortress_with_pile.desc=Verwende ein Seelensandhäufchen um eine nahe Netherfestung im Nether zu Orten
+
+achievement.btw.locate_fortress_bounds_with_pile=Verbranntes Reich
+achievement.btw.locate_fortress_bounds_with_pile.desc=Verwende ein Seelensandhäufchen um das Generierungsgebiet einer Netherfestung zu visualisieren
 
 achievement.btw.use_emerald_pile=Fährte des Handels
 achievement.btw.use_emerald_pile.desc=Verwende ein Smaragdstaubhäufchen um nahe Dörfer in der Oberwelt zu Orten
