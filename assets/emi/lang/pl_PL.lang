@@ -1,0 +1,994 @@
+#EMI
+
+key.keyboard.control=Ctrl
+key.keyboard.alt=Alt
+key.keyboard.shift=Shift
+
+key.emi.toggle_visibility=Pokaż/ukryj
+key.emi.focus_search=Zaznacz pasek wyszukiwania
+key.emi.clear_search=Wyczyść pasek wyszukiwania
+key.emi.view_recipes=Pokaż receptury
+key.emi.view_uses=Pokaż użycia
+key.emi.favorite=Dodaj do listy ulubionych
+key.emi.set_default=Ustaw domyślne
+key.emi.default_stack=Domyślny stos
+key.emi.view_stack_tree=Pokaż drzewo stosu
+key.emi.view_tree=Zobacz drzewo receptury
+key.emi.back=Powrót
+key.emi.forward=Dalej
+key.emi.craft_one=Wytwórz jeden
+key.emi.craft_all=Wytwórz maks.
+key.emi.craft_one_to_inventory=Wytwórz jeden do ekwipunku
+key.emi.craft_all_to_inventory=Wytwórz maks. do ekwipunku
+key.emi.craft_one_to_cursor=Wytwórz jeden na kursorze
+key.emi.show_craft=Pokaż użytą recepturę
+key.emi.cheat_one_to_inventory=Dodaj jeden do ekwipunku
+key.emi.cheat_stack_to_inventory=Dodaj stos do ekwipunku
+key.emi.cheat_one_to_cursor=Dodaj jeden na kursor
+key.emi.cheat_stack_to_cursor=Dodaj stack na kursor
+key.emi.delete_cursor_stack=Usuń stos z kursora
+key.emi.hide_stack=Ukryj przedmiot
+key.emi.hide_stack_by_id=Ukryj przedmiot wg. ID
+
+emi.help_level.verbose=Szczegółowy
+emi.help_level.normal=Normalny
+emi.help_level.none=Brak
+emi.align.horizontal.left=Lewo
+emi.align.horizontal.center=Środek
+emi.align.horizontal.right=Prawo
+emi.align.vertical.top=Góra
+emi.align.vertical.center=Środek
+emi.align.vertical.bottom=Dół
+emi.sidebar.type.none=Brak
+emi.sidebar.type.index=Indeks
+emi.sidebar.type.craftables=Wytwarzalne
+emi.sidebar.type.favorites=Ulubione
+emi.sidebar.type.lookup_history=Historia wyszukiwania
+emi.sidebar.type.craft_history=Historia wytwarzania
+emi.sidebar.type.chess=Szachy
+emi.sidebar.theme.transparent=Przezroczysty
+emi.sidebar.theme.vanilla=Vanilla
+emi.sidebar.theme.modern=Nowoczesny
+emi.header.visible=Widoczny
+emi.header.invisible=Niewidoczny
+emi.sidebar.size.columns=Poziomo
+emi.sidebar.size.rows=Pionowo
+emi.sidebar.margins.top=Góra
+emi.sidebar.margins.right=Prawo
+emi.sidebar.margins.bottom=Dół
+emi.sidebar.margins.left=Lewo
+emi.sidebar.none=Brak
+emi.sidebar.left=Lewo
+emi.sidebar.right=Prawo
+emi.sidebar.top=Góra
+emi.sidebar.bottom=Dół
+emi.effect_location.top=Góra
+emi.effect_location.left_compressed=Lewo (skompresowane)
+emi.effect_location.right_compressed=Prawo (skompresowane)
+emi.effect_location.left=Lewo
+emi.effect_location.right=Prawo
+emi.effect_location.hidden=Ukryte
+emi.recipe_book_action.default=Domyślna
+emi.recipe_book_action.toggle_craftables=Pokaż wytwarzalne
+emi.recipe_book_action.toggle_visibility=Pokaż/ukryj EMI
+
+config.emi.group.general=Generalne
+config.emi.group.general.search=Szukaj
+config.emi.group.ui=UI
+config.emi.group.ui.mod_id=Nazwy modów
+config.emi.group.ui.recipe_screen=Ekran receptur
+config.emi.group.ui.recipe_buttons=Przyciski receptur
+config.emi.group.ui.left_sidebar=Lewy pasek boczny
+config.emi.group.ui.right_sidebar=Prawy pasek boczny
+config.emi.group.ui.top_sidebar=Górny pasek
+config.emi.group.ui.bottom_sidebar=Dolny pasek
+config.emi.group.binds=Przypisane klawisze
+config.emi.group.dev=Dla deweloperów
+
+config.emi.group.binds.crafts=Wytwarzanie
+config.emi.group.binds.cheats=Cheaty
+
+config.emi.general.enabled=Pokaż EMI
+config.emi.general.cheat_mode=Tryb cheatów
+config.emi.general.help_level=Poziom pomocy
+config.emi.general.search_tooltip_by_default=Automatycznie szukaj wg. etykiet
+config.emi.general.search_mod_name_by_default=Automatycznie szukaj wg. nazw modów
+config.emi.general.search_tags_by_default=Automatycznie szukaj wg. tagów
+config.emi.general.search_id_by_default=Automatycznie szukaj wg. ID
+config.emi.general.simulate_nei_lag=[retroEMI] Symuluj lag z NEI
+
+config.emi.ui.effect_location=Pozycja efektów
+config.emi.ui.center_search_bar=Wyśrodkuj pasek wyszukiwania
+config.emi.ui.show_hover_overlay=Oznacz przy najeżdżaniu
+config.emi.ui.append_mod_id=Ustala, czy na etykietach pojawiają się nazwy modów.
+config.emi.ui.append_item_mod_id=Pokaż nazwy modów na przedmiotach
+config.emi.ui.recipe_book_action=Akcja książki receptur
+config.emi.ui.search_sidebar_focus=Pasek pokazany przy wyszukiwaniu
+config.emi.ui.empty_search_sidebar_focus=Pasek pokazany przy pustej wyszukiwarce
+
+config.emi.ui.left_sidebar_pages=Strony
+config.emi.ui.left_sidebar_subpanels=Dodatkowe panele
+config.emi.ui.left_sidebar_size=Rozmiar
+config.emi.ui.left_sidebar_margins=Marginesy
+config.emi.ui.left_sidebar_align=Wyrównaj
+config.emi.ui.left_sidebar_header=Nagłówek
+config.emi.ui.left_sidebar_theme=Motyw
+
+config.emi.ui.right_sidebar_pages=Strony
+config.emi.ui.right_sidebar_subpanels=Dodatkowe panele
+config.emi.ui.right_sidebar_size=Rozmiar
+config.emi.ui.right_sidebar_margins=Marginesy
+config.emi.ui.right_sidebar_align=Wyrównaj
+config.emi.ui.right_sidebar_header=Nagłówek
+config.emi.ui.right_sidebar_theme=Motyw
+
+config.emi.ui.top_sidebar_pages=Strony
+config.emi.ui.top_sidebar_subpanels=Dodatkowe panele
+config.emi.ui.top_sidebar_size=Rozmiar
+config.emi.ui.top_sidebar_margins=Marginesy
+config.emi.ui.top_sidebar_align=Wyrównaj
+config.emi.ui.top_sidebar_header=Nagłówek
+config.emi.ui.top_sidebar_theme=Motyw
+
+config.emi.ui.bottom_sidebar_pages=Strony
+config.emi.ui.bottom_sidebar_subpanels=Dodatkowe panele
+config.emi.ui.bottom_sidebar_size=Rozmiar
+config.emi.ui.bottom_sidebar_margins=Marginesy
+config.emi.ui.bottom_sidebar_align=Wyrównaj
+config.emi.ui.bottom_sidebar_header=Nagłówek
+config.emi.ui.bottom_sidebar_theme=Motyw
+
+config.emi.ui.vertical_margin=Pionowy margines ekranu receptur
+config.emi.ui.minimum_recipe_screen_width=Min. szerokość ekranu receptur
+config.emi.ui.workstation_location=Pozycja stacji wytwarzania
+config.emi.ui.miscraft_prevention=Unikanie błędnego wytwarzania
+config.emi.ui.fluid_unit=Jednostka cieczy
+config.emi.ui.show_cost_per_batch=Pokaż koszt partii
+config.emi.ui.recipe_default_button=Przycisk domyślnej receptury
+config.emi.ui.recipe_tree_button=Przycisk drzewa receptury
+config.emi.ui.recipe_fill_button=Przycisk wypełniania receptury
+config.emi.ui.recipe_screenshot_button=Przycisk zdjęcia receptury
+config.emi.ui.recipe_screenshot_scale=Skala zdjęcia receptury
+config.emi.ui.use_batched_renderer=Użyj grupowanego renderera
+config.emi.dev.dev_mode=Tryb deweloperski
+config.emi.dev.edit_mode=Tryb edycji
+config.emi.dev.log_untranslated_tags=Loguj tagi bez tłumaczeń
+config.emi.dev.log_non_tag_ingredients=Loguj nietagowane składniki
+config.emi.dev.show_recipe_ids=Pokaż ID receptur
+config.emi.dev.highlight_defaulted=Oznacz domyślne receptury
+config.emi.dev.highlight_exclusion_areas=Pokaż obszary wykluczenia
+config.emi.presets.sidebars=Paski boczne
+config.emi.presets.binds=Przypisane klawisze
+config.emi.presets.restore=Przywróć
+config.emi.presets.btw_default=Domyślne BTW
+config.emi.presets.old_default=Stary domyślny
+config.emi.presets.productive=Produktywny
+config.emi.presets.recipe_book_plus=Książka receptur+
+config.emi.presets.author_binds=Autorskie ustawienia
+config.emi.presets.backup=Przywróć kopię zapasową
+config.emi.presets.defaults=Przywróć domyślne
+config.emi.presets.empty_search_craftable=Puste szukanie wytwarzalnych
+emi.unit.liters=Litry
+emi.unit.millibuckets=Milliwiadra
+emi.unit.droplets=Krople
+emi.fluid.amount.liters=%s L
+emi.fluid.amount.millibuckets=%smB
+emi.fluid.amount.droplets=%s k
+
+emi.disabled=EMI jest ukryte! Pokaż je klawiszem
+emi.reloading=EMI jest przeładowywane...
+emi.reloading.waiting=EMI oczekuje na dane receptur z serwera...
+emi.reloading.error=§cWystąpił błąd krytyczny podczas przeładowywania EMI, sprawdź logi
+emi.reloading.worry=§cWystępuje opóźnienie, czy wszystko jest w porządku?
+emi.search=Szukaj w EMI...
+emi.search_config=Szukaj w konfiguracji...
+emi.delete_stack=§cUsuń trzymane przedmioty
+emi.inapplicable=Blok nie wspiera receptury
+emi.not_enough_ingredients=Niewystarczająca ilość składników
+emi.too_small=Siatka wytwarzania jest za mała, by zmieścić tą recepturę
+emi.favorite_recipe=Wciśnij %s by dodać recepturę do ulubionych
+emi.resolve.resolve=Wciśnij %s by użyć receptury w drzewie receptury
+emi.resolve.default=Wciśnij %s by ustawić jako domyślne dla wszystkich drzew
+emi.page=Strona %s z %s
+emi.page.short=%s/%s
+emi.total_cost=Łączny koszt
+emi.cost_per=Koszt na partię:
+emi.leftovers=Pozostałości
+emi.view_all_recipes=Kliknij by zobaczyć wszystkie receptury
+emi.tree_welcome=Witaj w %s
+emi.no_tree=Nie masz jeszcze ustawionego drzewa receptury...
+emi.random_tree=Może chcesz zobaczyć losowe?
+emi.random_tree_input=Wciśnij §6[ctrl + r]
+emi.edit_mode.hide_one=Wciśnij %s by ukryć przedmiot
+emi.edit_mode.hide_all=Wciśnij %s by ukryć przedmiot wg. ID
+tooltip.emi.chance.consume=Szansa zużycia: %s%%
+tooltip.emi.chance.produce=Szansa wytworzenia: %s%%
+tooltip.emi.accepts=Akceptuje:
+tooltip.emi.fill_recipe=Wypełnij recepturę
+tooltip.emi.fill_recipe_no_server=Nie można wypełnić receptury bez EMI na serwerze
+tooltip.emi.set_default=Ustaw jako domyślną recepturę
+tooltip.emi.current_defaults=Domyślna receptura dla:
+tooltip.emi.unset_default=Resetuj domyślną recepturę
+tooltip.emi.set_default_stack=Wciśnij %s najeżdżając na pole wyniku by ustalić domyślną recepturę dla tego stosu
+tooltip.emi.view_tree=Zobacz drzewo receptur
+tooltip.emi.recipe_screenshot=Zrób zdjęcie receptury
+tooltip.emi.resolution=Drzewo receptury dla składniku
+tooltip.emi.select_resolution=Kliknij §6pole wyjścia receptury§r by ustawić ją jako domyślną dla §dtego§r drzewa receptury
+tooltip.emi.default_resolution=Kliknij §6przycisk domyślnej receptury§r by ustawić ją jako domyślną dla §awszystkich§r drzew receptur
+tooltip.emi.clear_resolution=Kliknij §6tutaj§r by §cresetować§r użytą recepturę
+
+tooltip.emi.config=Konfiguracja %s
+tooltip.emi.recipe_tree=Drzewko receptury
+
+tooltip.emi.config.global=Użyj wspólnej konfiguracji EMI dla wszystkich instancji gry zamiast osobnej konfiguracji dla każdej instancji./n§cJeszcze nie zaimplementowane§r
+
+tooltip.emi.synfav.uncraftable=Nie można wytworzyć §cani jednej§r partii
+tooltip.emi.synfav.partially_craftable=Można wytworzyć §dkilka§r partii
+tooltip.emi.synfav.fully_craftable=Można wytworzyć §awszystkie z %s§r partii
+tooltip.emi.synfav.craft_some=Wciśnij %s by wytworzyć tyle, ile można
+tooltip.emi.synfav.craft_all=Wciśnij %s by wytworzyć wszystkie z §9%s§r partii
+
+tooltip.emi.recipe_remainder=Dodatkowo daje:
+
+tooltip.emi.bom.batch_size=Rozmiar partii: %s\nPrzewiń by zmienić\nPrzytrzymaj §6[shift]§r by zmieniać o 16
+tooltip.emi.bom.batch_size.ideal=Wciśnij %s by uniknąć pozostałości
+tooltip.emi.bom.mode.view=§6Przęglądanie§r drzewa receptury
+tooltip.emi.bom.mode.craft=§6Wytwarzanie§r drzewa receptury\nPostęp będzie pokazany na drzewie receptury\n§bSyntetyczne ulubione§r dodano do paska bocznego
+tooltip.emi.bom.help=Drzewo receptur pokazuje proces i minimalny koszt receptury\nDrzewo można przesuwać i powiększać\n\nKliknij węzeł by ustawić jego recepturę\nPrzytrzymaj §6[shift]§r by wybrać recepturę automatycznie według twojego ekwipunku\n\nPrawym przyciskiem myszy możesz tymczasowo zwinąć węzeł\nPrzytrzymaj §6[shift]§r by resetować recepturę\n\nDomyślny stan drzewa jest ustalony przez domyślne receptury zawartych w nim przedmiotów\nPrzycisk obok receptur pozwala na ustawienie preferencji domyślnych receptur\n\nPrzełącznik przy koszcie wytworzenia drzewa może pomóc przy wytwarzaniu\nPodczas wytwarzania pokazane będą wymagane materiały\n§bSyntetyczne ulubione§r pojawią się w pasku ulubionych, pokazując\nniedokończone kroki i pozwalając na wytwarzanie
+screen.emi.recipe=Receptura
+
+screen.emi.config= Konfiguracja
+screen.emi.presets=Domyślne konfiguracje
+
+screen.emi.config.reset=Wycofaj %s zmian
+
+emi.error.recipe.initialize=Błąd w inicjalizacji
+emi.error.recipe.render=Błąd w renderowaniu
+
+#Szachy EMI
+emi.chess.piece.white_pawn=Biały pionek
+emi.chess.piece.white_rook=Biała wieża
+emi.chess.piece.white_knight=Biały skoczek
+emi.chess.piece.white_bishop=Biały goniec
+emi.chess.piece.white_queen=Biały hetman
+emi.chess.piece.white_king=Biały król
+emi.chess.piece.black_pawn=Czarny pionek
+emi.chess.piece.black_rook=Czarna wieża
+emi.chess.piece.black_knight=Czarny skoczek
+emi.chess.piece.black_bishop=Czarny goniec
+emi.chess.piece.black_queen=Czarny hetman
+emi.chess.piece.black_king=Czarny król
+emi.chess.tooltip.invite=Zaproś gracza w pasku wyszukiwania do gry w szachy
+emi.chess.tooltip.accept=Zaakceptuj aproszenie %s do gry w szachy
+emi.chess.tooltip.decline=Wciśnij prawy przycisk myszy żeby odrzucić zaproszenie %s do gry w szachy
+emi.chess.tooltip.restart=Wciśnij prawy przycisk myszy aby zrestartować
+emi.chess.multiplayer.invited=%s zaprosił ciebie do gry w szachy
+emi.chess.multiplayer.accepted=%s przyjął twoje zaproszenie do gry w szachy
+emi.chess.multiplayer.cancelled=%s odwołał grę w szachy
+emi.chess.multiplayer.unavailable=%s nie może grać w szachy
+
+emi.cooking.time=%s Sekund
+emi.fuel_time.items=Pali się przez %s
+emi.btw.bulk.stoked=Wymaga rozpalonego hibaczi
+emi.btw.turntable.turns=Musi być obrócone %d razy
+emi.btw.turntable.ejected_items=Wyrzucone gdy się obróci wystarczająco razy
+emi.btw.progressive.time=Przytrzymaj prawy przycisk myszy
+
+emi.btw.hopper_filter.filtered_items=Przefiltrowane przedmioty 
+emi.btw.hopper_filter.tooltip=Filtr w leju
+
+emi.trade.BlacksmithVillagerEntity=Wymaga kowala poziomu %d
+emi.trade.PriestVillagerEntity=Wymaga kapłana poziomu %d
+emi.trade.LibrarianVillagerEntity=Wymaga bibliotekarza poziomu %d
+emi.trade.FarmerVillagerEntity=Wymaga rolnika poziomu %d
+emi.trade.ButcherVillagerEntity=Wymaga rzeźnika poziomu %d
+emi.trade.level_up=Awansuje z poziomu %d na poziom %d
+emi.trade.enchanted=Ma losowe zaklęcia
+emi.trade.guaranteed=Oferta jest gwarantowana i nie daje XP
+
+emi.world_interaction.btw.crafting_stump=§6Należy używać na pniu. Wymaga kilku uderzeń!
+emi.world_interaction.btw.brick_sundrying=§6Zostaw je na słońcu na cały dzień!
+emi.world_interaction.btw.bark_from_chiseling=§6Pierwsze uderzenie
+emi.world_interaction.btw.shaft_from_chiseling=§6Drugie i czwarte uderzenie
+emi.world_interaction.btw.sawdust_from_chiseling=§6Trzecie i piąte uderzenie
+
+# Komendy
+
+commands.emi.usage=Umożliwia przeglądanie receptur, drzewka receptur, dodawanie celu drzewka oraz dodawanie rozdzielczości drzewka. Funkcja nie została jeszcze zaimplementowana.
+commands.emi.nyi=Ta komenda nie została jeszcze zaimplementowana
+commands.emi.id=Wymaga ID receptury.
+
+# Kategorie
+
+emi.category.minecraft.crafting=Wytwarzanie
+emi.category.minecraft.brewing=Warzenie
+emi.category.minecraft.smelting=Przetapianie
+emi.category.emi.world_interaction=Interakcja w świecie
+emi.category.emi.fuel=Paliwo
+emi.category.emi.info=Informacja
+emi.category.btw.soulforge=Kuźnia dusz
+emi.category.btw.cauldron=Kocioł
+emi.category.btw.crucible=Tygiel
+emi.category.btw.hopper=Lej
+emi.category.btw.kiln=Piec do ceramiki
+emi.category.btw.millstone=Kamień młyński
+emi.category.btw.loom=Krosno
+emi.category.btw.piston=Pakowanie tłokiem
+emi.category.btw.saw=Piła
+emi.category.btw.turntable=Koło garncarskie
+emi.category.btw.campfire=Ognisko
+emi.category.btw.trading=Handel
+emi.category.btw.progressive=Progresywne rzemiosło
+emi.category.btw.hopper_filtering=Filtrowanie w leju
+
+emi.category.emi.tag=Tagi
+emi.category.emi.ingredient=Składniki
+emi.category.btw.food=Jedzenie
+
+alias.emi.workbench=Stół rzemieślniczy
+alias.emi.crafting_table=Crafting Table
+alias.emi.stick=Kij
+alias.emi.tnt=TNT
+alias.emi.cauldron=Kocioł
+
+# Tagi
+
+tag.btw.empty=Empty
+
+# Wełny
+tag.btw.wools=Wełny
+tag.btw.wools.colored=Kolorowe wełny
+tag.btw.knit_wools=Wełniane dzianiny
+tag.btw.knit_wools.colored=Kolorowe wełniane dzianiny
+tag.btw.wool_blocks=Bloki wełny
+tag.btw.wool_blocks.colored=Kolorowe bloki wełny
+tag.btw.wool_slabs=Wełniane płyty
+tag.btw.wool_slabs.colored=Kolorowe wełniane płyty
+tag.btw.carpets=Dywany
+tag.btw.carpets.colored=Kolorowe dywany
+
+# Barwniki
+tag.btw.dyes=Barwniki
+tag.btw.dyes.black=Czarne barwniki
+tag.btw.dyes.red=Czerwone barwniki
+tag.btw.dyes.green=Zielone barwniki
+tag.btw.dyes.brown=Brązowe barwniki
+tag.btw.dyes.blue=Niebieskie barwniki
+tag.btw.dyes.purple=Fioletowe barwniki
+tag.btw.dyes.cyan=Błękitne barwniki
+tag.btw.dyes.light_gray=Jasnoszare barwniki
+tag.btw.dyes.gray=Szare barwniki
+tag.btw.dyes.pink=Różowe barwniki
+tag.btw.dyes.lime=Jasnozielone barwniki
+tag.btw.dyes.yellow=Żółte barwniki
+tag.btw.dyes.light_blue=Jasnoniebieskie barwniki
+tag.btw.dyes.magenta=Fioletowe Barwniki
+tag.btw.dyes.orange=Pomarańczowe barwniki
+tag.btw.dyes.white=Białe barwniki
+
+# Ores
+tag.btw.ores.coal=Złoża węgla
+tag.btw.ores.iron=Złoża żelaza
+tag.btw.ores.lapis=Złoża lazurytu
+tag.btw.ores.redstone=Złoża czerwonego kamienia
+tag.btw.ores.gold=Złoża złota
+tag.btw.ores.diamond=Złoża diamentu
+tag.btw.ores.emerald=Złożaszmaragdu
+tag.btw.ores.quartz=Złoża netherowego kwarcu
+tag.btw.ores.clay=Złoża gliny
+
+tag.btw.stone_ores=Złoża w skałach
+tag.btw.netherrack_ores=złoża w netherracku
+tag.btw.ores=Złoża
+
+tag.btw.ores.raw=Kawałki złóż
+tag.btw.piles.ore=Kupki złóż
+
+tag.btw.coals.normal=Zwyczajne węgle
+tag.btw.coals=Węgle
+tag.btw.ingots.metal=Metalowe sztabki
+tag.btw.ingots=Sztabki
+tag.btw.nuggets=Samorodki
+tag.btw.gems=Klejnoty
+
+tag.btw.storage_blocks.ore=Bloki magazynowe minerałów
+tag.btw.storage_blocks.ore.raw=Bloki magazynowe rud
+tag.btw.storage_blocks.ore.coals=Bloki magazynowe węgla
+
+# Wood
+tag.btw.logs=Pnie
+
+tag.btw.planks=Deski
+tag.btw.wooden_slabs=Drewniane płyty
+tag.btw.wooden_sidings=Drewniane boki
+tag.btw.wooden_mouldings=Drewniane ćwiartki
+tag.btw.wooden_corners=Drewniane rogi
+
+tag.btw.high_efficiency_wood_sidings=Wysoka efektywność: boki
+tag.btw.high_efficiency_wood_mouldings=Wysoka efektywność: ćwiartki
+tag.btw.high_efficiency_sticks=Wysoka efektywność: patyki
+
+tag.btw.ladders=Drabiny
+tag.btw.trapdoors=Zapadnie
+
+tag.btw.barks=Kory
+tag.btw.barks.low_tannin=Kory o niskiej zawartości taniny
+tag.btw.barks.medium_tannin=Kory o średniej zawartości taniny
+tag.btw.barks.high_tannin=Kory o wysokiej zawartości taniny
+tag.btw.barks.very_high_tannin=Kory o bardzo wysokiej zawartości taniny
+
+tag.btw.sawdusts=Trociny
+
+# Stone
+tag.btw.stones=Kamienie
+tag.btw.stone_slabs=Kamienne płyty
+tag.btw.stone_stairs=Kamienne schody
+tag.btw.stone_sidings=Kamienne boki
+tag.btw.stone_mouldings=Kamienne ćwiartki
+tag.btw.stone_corners=Kamienne rogi
+tag.btw.stone_benches=Kamienne ławki
+tag.btw.stone_walls=Kamienne płotki
+tag.btw.stone_columns=Kamienne kolumny
+tag.btw.stone_pedestals=Kamienne piedestały
+tag.btw.stone_tables=Kamienne stoły
+
+tag.btw.cobblestones=Bruki
+tag.btw.cobblestone_slabs=Brukowe płyty
+tag.btw.cobblestone_stairs=Brukowe schody
+tag.btw.cobblestone_walls=Brukowe płotki
+
+tag.btw.mossy_cobblestones=Zamszone bruki
+tag.btw.mossy_cobblestone_walls=Zamszone brukowe płotki
+
+tag.btw.loose_cobblestones=Luźne bruki
+tag.btw.loose_cobblestone_slabs=Luźne brukowe płyty
+tag.btw.loose_cobblestone_stairs=Luźne brukowe schody
+
+tag.btw.stone_brick_blocks=Bloki kamiennych cegieł
+tag.btw.stone_brick_slabs=Płyty kamiennych cegieł
+tag.btw.stone_brick_stairs=Schody kamiennych cegieł
+
+tag.btw.loose_stone_bricks=Luźne kamienne cegły
+tag.btw.loose_stone_brick_slabs=Luźne płyty kamiennych cegieł
+tag.btw.loose_stone_brick_stairs=Luźne schody kamiennych cegieł
+
+tag.btw.loose_bricks=Luźne cegły
+tag.btw.brick_blocks=Bloki cegieł
+
+tag.btw.loose_nether_bricks=Luźne netherowe cegły
+tag.btw.nether_brick_blocks=Bloki netherowych cegieł
+
+tag.btw.mortar=Zaprawy
+tag.btw.blocks_with_mortar=Bloki z zaprawą
+tag.btw.mortarable_blocks=Bloki które można zaprawić
+
+tag.btw.loose_rocks=Kamyki
+
+tag.btw.bricks=Cegły
+tag.btw.bricks.clay=Gliniane cegły
+tag.btw.bricks.nether=Netherowe cegły
+tag.btw.bricks.stone=Kamienne cegły
+
+tag.btw.sandstone_blocks=Bloki piaskowca
+tag.btw.quartz_blocks=Bloki kwarcu
+
+tag.btw.terracotta=Terakota
+tag.btw.terracotta.colored=Barwiona terakota
+
+# Soils
+tag.btw.dirts=Ziemia
+tag.btw.dirt_slabs=Ziemne płyty
+
+tag.btw.grass_blocks=Bloki trawy
+tag.btw.grass_slabs=Płyty trawy
+
+tag.btw.mycelium_blocks=Bloki grzybni
+tag.btw.mycelium_slabs=Płyty grzybni
+
+tag.btw.sands=Piaski
+tag.btw.sand_slabs=Piaskowe płyty
+
+tag.btw.gravels=Żwiry
+tag.btw.gravel_slabs=Żwirowe płyty
+
+tag.btw.piles.dirt=Grudki ziemi
+tag.btw.piles.sand=Grudki piasku
+tag.btw.piles.gravel=Grudki żwiru
+tag.btw.piles.soul_sand=Grudki piasku dusz
+tag.btw.piles.soil=Grudki gleb
+
+tag.btw.blights=Zarazy
+
+# Organics
+tag.btw.leaves=Liście
+
+tag.btw.saplings.small=Małe sadzonki
+tag.btw.saplings.mature=Dojrzałe sadzonki
+tag.btw.saplings=Sadzonki
+
+tag.btw.seeds=Nasiona
+tag.btw.flowers=Kwiaty
+tag.btw.grasses=Trawy
+tag.btw.crops=Plony
+
+# Materials
+tag.btw.strings=Nicie
+tag.btw.strings.fine=Dobre nicie
+
+tag.btw.leathers=Leathers
+tag.btw.leathers.whole=Całe skóry
+tag.btw.leathers.cut=Pocięte skóry
+tag.btw.leathers.raw=Surowe skóry
+tag.btw.leathers.scoured=Wyszorowane skóry
+tag.btw.leathers.tanned=Garbowane skóry
+
+tag.btw.books=Książki
+
+tag.btw.soul_items=Przedmioty zawierające dusze
+
+tag.btw.piles=Grudki
+
+tag.btw.powders=Proszki
+
+tag.btw.storage_blocks=Bloki magazynowe
+
+# Food
+tag.btw.meats=Mięsa
+tag.btw.meats.raw=Surowe mięsa
+tag.btw.meats.cooked=Upieczone mięsa
+tag.btw.meats.hearty=Obfite mięsa
+
+tag.btw.eggs=Jajka
+tag.btw.eggs.raw=Surowe jajka
+tag.btw.eggs.cooked=Gotowane jajka
+tag.btw.eggs.whole=Nierozbite jajka
+
+tag.btw.carrots=Marchewki
+tag.btw.potatoes=Ziemniaki
+tag.btw.potatoes.cooked=Ugotowane ziemniaki
+
+tag.btw.vegetables=Warzywa
+tag.btw.vegetables.raw=Surowe warzywa
+tag.btw.vegetables.cooked=Ugotowane warzywa
+
+tag.btw.mushrooms=Grzyby
+
+tag.btw.fruits=Owoce
+
+tag.btw.breads=Chleby
+
+tag.btw.desserts=Desery
+
+tag.btw.meals=Posiłki
+tag.btw.meals.raw=Surowe posiłki
+tag.btw.meals.small=Lekkie posiłki
+tag.btw.meals.normal=Sycące posiłki
+tag.btw.meals.hearty=Obfite posiłki
+
+tag.btw.questionable_foods=Wątpliwe jedzenie
+
+tag.btw.drinkable_bucket=Wiadra do picia
+
+tag.btw.foods=Jedzenie
+
+# Animal Feed
+tag.btw.wolf_foods=Pokarm wilków
+tag.btw.wolf_foods.low_quality=Pokarm wilków niskiej jakości
+tag.btw.wolf_foods.high_quality=Pokarm wilków wysokiej jakości
+tag.btw.wolf_breeding_foods=Pokarm prowokująct wilki
+tag.btw.wolf_angering_foods=Pokarm do rozmnażania wilków
+tag.btw.wolf_transforming_foods=Katalizatory przemiany w bestię
+
+tag.btw.chicken_foods=Pokarm kurczaków
+tag.btw.chicken_breeding_foods=Pokarm rozmnażania kurczaków
+
+tag.btw.pig_foods=Pokarm świń
+tag.btw.pig_foods.low_quality=Pokarm świń niskiej jakości
+tag.btw.pig_foods.high_quality=Pokarm świń wysokiej jakości
+tag.btw.pig_breeding_foods=Pokarm rozmnażania świń
+
+tag.btw.herbivore_foods=Pokarm roślinożerców
+tag.btw.herbivore_foods.low_quality=Pokarm roślinożerców niskiej jakości
+tag.btw.herbivore_foods.high_quality=Pokarm roślinożerców wysokiej jakości
+
+tag.btw.sheep_breeding_foods=Pokarm do rozmnażania owiec
+tag.btw.cow_breeding_foods=Pokarm do rozmnażania krów
+tag.btw.horse_breeding_foods=Pokarm do rozmnażania koni
+
+# Tools
+tag.btw.tools=Narzędzia
+
+tag.btw.tools.axes=Siekiery
+tag.btw.tools.axes.low_quality=Siekiery niskiej jakości
+tag.btw.tools.axes.high_quality=Siekiery wysokiej jakości
+
+tag.btw.tools.chisels=Dłuta
+
+tag.btw.tools.firestarters=Podpałki
+tag.btw.tools.firestarters.low_quality=Podpałki niskiej jakości
+tag.btw.tools.firestarters.high_quality=Podpałki wysokiej jakości
+
+tag.btw.tools.fishing_rods=Wędki
+tag.btw.tools.edible_fishing_rods=Jadalne wędki
+
+tag.btw.tools.hoes=Motyki
+tag.btw.tools.hoes.low_quality=Motyki niskiej jakości
+tag.btw.tools.hoes.high_quality=Motyki wysokiej jakości
+
+tag.btw.tools.pickaxes=Kilofy
+tag.btw.tools.pickaxes.low_quality=Kilofy niskiej jakości
+tag.btw.tools.pickaxes.high_quality=Kilofy wysokiej jakości
+
+tag.btw.tools.shears=Nożyce
+
+tag.btw.tools.shovels=Łopaty
+tag.btw.tools.shovels.low_quality=Łopaty niskiej jakości
+tag.btw.tools.shovels.high_quality=Łopaty wysokiej jakości
+
+tag.btw.tools.weapons=Bronie
+tag.btw.tools.weapons.bows=Łuki
+tag.btw.tools.weapons.melee=Broń biała
+tag.btw.tools.weapons.melee.clubs=Maczugi
+tag.btw.tools.weapons.melee.swords=Miecze
+
+tag.btw.arrows=Strzały
+tag.btw.arrows.low_quality=Strzały niskiej jakości
+tag.btw.arrows.high_quality=Strzały wysokiej jakości
+
+tag.btw.tool_handles=Rękojeści
+tag.btw.tool_handles.low_quality=Rękojeści niskiej jakości
+tag.btw.tool_handles.high_quality=Rękojeści wysokiej jakości
+
+tag.btw.fishing_hooks=Haczyki
+tag.btw.fishing_bait=Przynęty
+
+# Armor
+tag.btw.armor=Zbroje
+
+tag.btw.armor.light=Lekkie zbroje
+tag.btw.armor.heavy=Ciężkie zbroje
+tag.btw.armor.hybrid=Średnie zbroje
+tag.btw.armor.ultra_heavy=Bardzo ciężkie zbroje
+
+tag.btw.armor.wool=Wełniane ubranie
+tag.btw.armor.padded=Przyszywanica
+tag.btw.armor.leather=Skórzana zbroja
+tag.btw.armor.tanned_leather=Zbroja z garbowanej skóry
+tag.btw.armor.gimp=Strój klubu BTSM
+tag.btw.armor.chain=Kolczuga
+tag.btw.armor.iron=Żelazna zbroja
+tag.btw.armor.gold=Złota zbroja
+tag.btw.armor.diamond=Diamentowa zbroja
+tag.btw.armor.steel=Zbroja płytowa
+
+tag.btw.armor.boots=Buty
+tag.btw.armor.leggings=Nogawice
+tag.btw.armor.chestplates=Napierśniki
+tag.btw.armor.helmets=Hełmy
+
+tag.btw.armor_plates=Płyty do pancerza
+
+# Misc Equipment
+tag.btw.arcane_scrolls=Tajemne zwoje
+tag.btw.potions=Mikstury
+
+# Decorative
+tag.btw.candles=Świece
+tag.btw.metal_bars=Metalowe pręty
+
+tag.btw.vases=Vazy
+tag.btw.vases.colored=Kolorowe wazy
+
+# Functional Blocks
+tag.btw.bark_boxes=Pudełka z kory
+
+tag.btw.torches=Pochodnie
+tag.btw.torches.finite=Normalne pochodnie
+tag.btw.torches.infinite=Nieskończone pochodnie
+tag.btw.torches.unlit=Niezapalone pochodnie
+tag.btw.torches.lit=Palące się pochodnie
+tag.btw.torches.coal=Weglowe pochodnie
+
+tag.btw.chopping_blocks=Bloki tnące
+
+tag.btw.unfired_pottery=Niewypalona ceramika
+tag.btw.planters=Donice
+
+tag.btw.buttons=Przyciski
+tag.btw.buttons.wooden=Drewniane przyciski
+tag.btw.buttons.stone=Kamienne przyciski
+
+tag.btw.pressure_plates=Płyty naciskowe
+tag.btw.pressure_plates.wooden=Drewniane płyty naciskowe
+tag.btw.pressure_plates.stone=Kamienne płyty naciskowe
+tag.btw.pressure_plates.metal=Metalowe płyty naciskowe
+
+tag.btw.rails=Tory
+tag.btw.rails.detector=Tory z czujnikiem
+tag.btw.rails.detector.wooden=Drewniane tory z czujnikiem
+tag.btw.rails.detector.stone=Kamienne tory z czujnikiem
+tag.btw.rails.detector.metal=Metalowe tory z czujnikiem
+
+# Mechanical Power
+tag.btw.requires_mechanical_power=Przyjmuje energię mechaniczną
+tag.btw.transmits_mechanical_power=Przesyła energię mechaniczną
+tag.btw.generates_mechanical_power=Generuje energię mechaniczną
+
+# Hopper Filtering
+tag.btw.hopper_filters=Filtry do leja
+tag.btw.hopper_filters.soul=Filtruje dusze
+tag.btw.hopper_filters.powdery=Filtruje proszki
+tag.btw.hopper_filters.thin=Filtruje cienkie
+tag.btw.hopper_filters.small=Filtruje małe
+tag.btw.hopper_filters.narrow=Filtruje wąskie
+tag.btw.hopper_filters.stackable=Filtruje stackujące się
+tag.btw.hopper_filters.items=Filtruje przedmioty
+
+tag.btw.filtered_as_powder=Filtruje jako proszek
+tag.btw.filtered_as_thin=Filtruje jako cienkie
+tag.btw.filtered_as_small=Filtruje jako małe
+tag.btw.filtered_as_narrow=Filtruje jako wąskie
+tag.btw.filtered_as_stackable=Filtruje jako stackujące się
+tag.btw.filtered_as_items=Filtruje jako przedmioty
+tag.btw.filtered_as_blocks=Filtruje jako bloki
+
+# Bellows Sorting
+tag.btw.long_blow_distance=Duży zasięg dmuchnięcia miechem
+tag.btw.medium_blow_distance=Średni zasięg dmuchnięcia miechem
+tag.btw.short_blow_distance=Mały zasięg dmuchnięcia miechem
+
+# Buoyancy
+tag.btw.buoyant=Wyporne
+tag.btw.neutral_buoyancy=Obojętnie wyporne
+
+# Wildcardy (nieużywane)
+tag.wildcard.Arcane Scroll.22479=Arcane Scrolls
+tag.wildcard.Black Stone Siding.178=Black Stone Pieces
+tag.wildcard.candle.black.22602=Candles
+tag.wildcard.Blight.180=Blight
+tag.wildcard.Brick Siding.186=Brick Pieces
+tag.wildcard.Carpet.171=Carpets
+tag.wildcard.Chewed Log.1010=Chewed Logs
+tag.wildcard.Coal.263=Coals
+tag.wildcard.Cobblestone Slab.1123=Cobblestone Slabs
+tag.wildcard.Cobblestone Wall.139=Cobblestone Walls
+tag.wildcard.Cobblestone.4=Cobblestones
+tag.wildcard.Companion Cube.237=Companion Cube
+tag.wildcard.Dirt Slab.206=Dirt Slab
+tag.wildcard.Golden Apple.322=Golden Apples
+tag.wildcard.Gravel Slab.175=Gravel Slab
+tag.wildcard.Ink Sac.351=Dyes
+tag.wildcard.Loose Cobblestone Slab.1022=Loose Cobblestone Slabs
+tag.wildcard.Loose Cobblestone.1021=Loose Cobblestone
+tag.wildcard.Loose Stone Brick Slab.1071=Loose Stone Brick Slabs
+tag.wildcard.Loose Stone Brick.1070=Loose Stone Brick
+tag.wildcard.Loose Stone.22566=Loose Stone
+tag.wildcard.Moss Stone.48=Moss Stone
+tag.wildcard.Nether Brick Siding.188=Nether Brick Pieces
+tag.wildcard.Oak Bark.22547=Wood Barks
+tag.wildcard.Oak Leaves.18=Leaves
+tag.wildcard.Birch Sapling.1160=Birch Saplings
+tag.wildcard.Jungle Sapling.1161=Jungle Saplings
+tag.wildcard.Oak Sapling.1158=Oak Saplings
+tag.wildcard.Old Oak Sapling.6=Old Oak Saplings
+tag.wildcard.Spruce Sapling.1159=Spruce Saplings
+tag.wildcard.Oak Wood Bench.200=Wood Decorative
+tag.wildcard.Oak Wood Bench.199=Wood Decorative
+tag.wildcard.Oak Wood Corner.198=Wood Corners
+tag.wildcard.Oak Wood Moulding.197=Wood Moulding
+tag.wildcard.Oak Wood Siding.196=Wood Siding
+tag.wildcard.Oak Wood Planks.5=Wood Planks
+tag.wildcard.Oak Wood Slab.126=Wood Slabs
+tag.wildcard.Oak Wood.17=Wood
+tag.wildcard.Obsidian.49=Obsidian
+tag.wildcard.Old Black item.fcItemCandle.22480=Old Candles
+tag.wildcard.Old Block of Wicker.215=Compressed Blocks
+tag.wildcard.Planter.254=Planters
+tag.wildcard.Sandstone Siding.182=Sandstone Pieces
+tag.wildcard.Sandstone.24=Sandstones
+tag.wildcard.Shrub.31=Shrubs
+tag.wildcard.Skeleton Skull.397=Skulls
+tag.wildcard.Smooth Stone.1=Smooth Stones
+tag.wildcard.Spawn.383=Spawn Eggs
+tag.wildcard.Stone Brick Siding.1139=Stone Brick Pieces 1
+tag.wildcard.Stone Brick Siding.1143=Stone Brick Pieces 2
+tag.wildcard.Stone Brick Siding.202=Stone Brick Pieces 3
+tag.wildcard.Stone Brick.22588=Stone Bricks 1
+tag.wildcard.Stone Bricks Slab.1125=Stone Brick Slabs
+tag.wildcard.Stone Bricks.98=Stone Bricks 2
+tag.wildcard.Stone Monster Egg.97=Infested Stone
+tag.wildcard.Stone Siding.1141=Stone Pieces 1
+tag.wildcard.Stone Siding.1145=Stone Pieces 2
+tag.wildcard.Stone Siding.185=Stone Pieces 3
+tag.wildcard.Stone Slab.1127=Stone Slabs 1
+tag.wildcard.Stone Slab.44=Stone Slabs 2
+tag.wildcard.Unfired Crucible.252=Unfired Pottery
+tag.wildcard.Vine Trap.213=Vine Trap
+tag.wildcard.Water Bottle.373=Potions
+tag.wildcard.White Stained Clay.159=Stained Clays
+tag.wildcard.White Stone Siding.191=Stone Sidings
+tag.wildcard.Wool Slab.220=Wool Slabs
+tag.wildcard.Wool.35=Wool Blocks
+tag.wildcard.tile.fcBlockLogDamagedBirch.name.3207=Damaged Birch
+tag.wildcard.tile.fcBlockLogDamagedJungle.name.3208=Damaged Jungle
+tag.wildcard.tile.fcBlockLogDamagedSpruce.name.3206=Damaged Spruce
+tag.wildcard.tile.fcBlockWoodOakSiding.siding.name.184=Wood Sidings 1 (Untranslated)
+tag.wildcard.tile.fcStoneBrickSiding.blackstone.siding.name.1143=Blackstone Sidings (Untranslated)
+tag.wildcard.tile.fcWoodBloodSiding.siding.name.1007=Wood Sidings 2 (Untranslated)
+tag.wildcard.tile.fcStoneBrickSiding.deepslate.siding.name.1139=Deepslate Sidings (Untranslated)
+tag.wildcard.tile.null.default.name.155=Nether Quartz Blocks
+tag.wildcard.Black Candle.22602=Candles
+tag.wildcard.Black Wool.2551=Balled Wools
+tag.wildcard.Black Wool Knit.22579=Knit Wools
+tag.wildcard.Blackstone Siding.1145=Blackstone Sidings
+tag.wildcard.Deepslate Siding.1141=Deepslate Sidings
+tag.wildcard.Loose Stone Bricks.1070=Loose Stone Bricks
+tag.wildcard.Mossy Cobblestone.48=Mossy Cobblestones
+tag.wildcard.Stone Brick Slab.1125=Stone Brick Slabs
+tag.wildcard.Stone.1=Stones
+tag.wildcard.Loose Rock.22566=Loose Rocks
+tag.wildcard.Gold Ore.14=Gold Ores
+tag.wildcard.Iron Ore.15=Iron Ores
+tag.wildcard.Coal Ore.16=Coal Ores
+tag.wildcard.Lapis Lazuli Ore.21=Lapis Lazuli Ores
+tag.wildcard.Diamond Ore.56=Diamond Ores
+tag.wildcard.Redstone Ore.73=Redstone Ores
+tag.wildcard.Redstone Ore.74=Redstone Ores
+tag.wildcard.Emerald Ore.129=Emerald Ores
+tag.wildcard.Quartz Block.155=Quartz Blocks
+tag.wildcard.Quartz Siding.178=Quartz Sidings
+tag.wildcard.Quartz Moulding.179=Quartz Mouldings
+tag.wildcard.Sandstone Moulding.183=Sandstone Mouldings
+tag.wildcard.Brick Moulding.187=Brick Mouldings
+tag.wildcard.Nether Brick Moulding.189=Nether Brick Mouldings
+tag.wildcard.White Stone Moulding.192=White Stone Moulding
+tag.wildcard.Oak Wood Column.199=Wood Decorative
+tag.wildcard.tile.fcWoodJungleMoulding.moulding.name.201=Unused
+tag.wildcard.Stone Brick Moulding.203=Stone Brick Mouldings
+tag.wildcard.Stone Moulding.214=Stone Mouldings
+tag.wildcard.Old Moulding.231=Unused
+tag.wildcard.Vase.255=Vases
+tag.wildcard.tile.fcWoodBloodMoulding.moulding.name.1008=Unused
+tag.wildcard.Deepslate Brick Siding.1139=Deepslate Brick Sidings
+tag.wildcard.Deepslate Brick Moulding.1140=Deepslate Brick Mouldings
+tag.wildcard.Deepslate Moulding.1142=Deepslate Mouldings
+tag.wildcard.Blackstone Brick Siding.1143=Blackstone Brick Sidings
+tag.wildcard.Blackstone Brick Moulding.1144=Blackstone Brick Mouldings
+tag.wildcard.Blackstone Moulding.1146=Blackstone Mouldings
+
+# EMI recipe info
+
+emi.info.piston_crushing_input=Upuszczone przedmioty otoczone twardymi powierzchniami
+emi.info.piston_crushing_output=Blok powstały po pakowaniu
+
+emi.info.hopper_urn=Połóź pod lejem
+emi.info.input=Przedmiot do filtracji
+emi.info.filter_item=Filtr
+emi.info.output=Przeszło przez filtr
+emi.info.filter_output=Przefiltrowany produkt
+
+emi.info.kiln.cycle=Zmień konfiguracje
+
+emi.info.stoked=Wymaga rozpalonego hibaczi
+emi.info.mechanical=Wymaga energii mechanicznej
+emi.info.fist=Pięść
+
+emi.info.no_campfire=Nie można palić w ognisku!
+emi.info.no_oven=Nie można spalic w piecu!
+
+# EMI Item Info
+
+btw.stone.info=Kamień można wytworzyć, umieszczając luźny bruk lub luźne kamienne cegły, a następnie wylewając lawę na blok i zalewając go wodą w celu zestalenia.
+btw.deepslate.info=Głęboki łupek można wytworzyć, umieszczając luźny łupkowy bruk lub luźne lupkowe cegły odpowiedniej warstwy, a następnie wylewając lawę na blok i zalewając go wodą w celu zestalenia.
+btw.blackstone.info=Czarny kamień można uzyskać, umieszczając luźny czernitowy bruk lub luźne czernitowe cegły z odpowiedniej warstwy, a następnie polewając blok lawą, a następnie wodą, aby go zestalić.
+
+btw.mossy_cobblestone.info=Przyzywacz potworów z czasem zamieni bruk i luźną kostkę brukową w obszarze 9 na 9 wokół spawnera w omszałą kostkę brukową.
+btw.mossy_cobbled_deepslate.info=Przyzywacz potworów z czasem zamieniają brukowany głęboki łupek i luźny brukowany głęboki łupek w obszarze 9 na 9 wokół generatora w omszały brukowany głęboki łupek.
+btw.mossy_cobbled_blackstone.info=Przyzywacz potworów z czasem zamieniają brukowaną czarną skałę i luźną brukowaną czarną skałę w obszarze 9 na 9 wokół generatora w omszałą brukowaną czarną skałę.
+
+btw.mossy_stone_brick.info=Woda spływająca po kamiennej cegle z czasem zamieni ją w omszałą kamienną cegłę.
+btw.mossy_deepslate_brick.info=Woda spływająca po łupkowej cegle z czasem zamieni ją w omszałą łupkową cegłę.
+btw.mossy_blackstone_brick.info=Woda spływająca po czernitowej cegle z czasem zamieni ją w omszałą czernitową cegłę
+
+btw.cracked_stone_brick.info=Kamienne cegły popękają jak będzie nad nimi pływała lawa.
+btw.cracked_deepslate_brick.info=Łupkowe cegły popękają jak będzie nad nimi pływała lawa.
+btw.cracked_blackstone_brick.info=Czernitowe cegły popękają jak będzie nad nimi pływała lawa.
+
+btw.anvil.info=Kowadło może służyć jako stół rzemieślniczy, który można umieścić w dowolnym miejscu. Należy pamiętać, że kowadła nie można podnieść, a zamiast tego upuszcza ono złom, którego jedynym zastosowaniem jest przetopienie w tyglu w celu odzyskania żelaza.
+btw.bonemeal.info=Nałóż mączkę kostną na pola uprawne lub donice, aby przyspieszyć wzrost upraw na tym bloku. Mączka kostna zostaje zużyta, gdy roślina zakończy wzrost.
+btw.campfire.info=Kliknij prawym przyciskiem myszy na ognisko trzymając naostrzony patyk, aby dodać je jako rożen, a następnie umieść na nim mięso. Gotowanie na ognisku trwa kilka minut, a płomień powinien być utrzymywany na średnim poziomie. Niski płomień wstrzymuje gotowanie, a wysoki płomień spala mięso. Ognisko można ponownie rozpalić, gdy się tli, ale nie można tego zrobić, gdy całkowicie wygasło. Ognisko rozpalone na bloku palącym się w nieskończoność, takim jak Netherrack, utworzy pełny blok ognia, a ognisko umieszczone w ramie portalu obsydianowego utworzy portal do Netheru po rozpaleniu.
+btw.chisel.info=Dłuta można używać na pniu, aby utworzyć pniak do tworzenia, i uzyskać dostęp do pola 3x3. Można je również używać na kamieniu, aby uzyskać kamienne cegły, a nawet zbierać czerwony pył i diamenty.
+btw.cobweb.info=Pająki strzelają pajęczynami w swoje cele, aby je spowolnić. Pajęczyny te można zbierać za pomocą naostrzonego kamienia, aby uzyskać nić, lub nożyc, aby zebrać pajęczynę w stanie nienaruszonym, którą następnie można przekształcić w więcej nici.
+btw.fishing_rod.info=Łowienie wymaga przynęty, wystarczającej ilości miejsca i odpowiedniej pory dnia. Aby użyć przynęty, kliknij prawym przyciskiem myszy, trzymając wędkę z dowolnym przedmiotem służącym jako przynęta (np. zgniłym mięsem, ostrygami creepera, oczami pająka lub skrzydłami nietoperza) na pasku szybkiego dostępu. Odpowiednie miejsce do wędkowania musi mieć widok na niebo i być co najmniej 3 bloki głębokie. Jeśli przynęta jest odpowiednia, wokół spławika pojawią się bąbelki. Najlepszym czasem na łowienie jest pełnia księżyca lub świt i zmierzch podczas deszczu.
+btw.netherrack.info=Netherrack może palić się w nieskończoność, ale wymaga to ogniska lub ładunku zapalającego. Podlega również grawitacji w świecie nadziemnym, ale jeśli zostanie podpalony, będzie się palił nawet po upadku.
+btw.oven.info=Piece mogą być używane do znacznie wydajniejszego gotowania mięsa niż ogniska oraz do wytapiania rud. W górnej części mogą pomieścić jeden przedmiot, a w dolnej znajduje się paliwo. Kliknij prawym przyciskiem myszy z paliwem, aby je włożyć, a nakładka zaktualizuje się, wyświetlając aktualną ilość paliwa. Do zapalenia pieca można użyć podpałki, takiej jak pług ogniowy lub zapalona pochodnia.
+btw.string.info=Pająki strzelają pajęczynami w swoje cele, aby je spowolnić. Pajęczyny można zbierać za pomocą ostrego kamienia, aby uzyskać nić, lub nożyc, aby zebrać pajęczynę w stanie nienaruszonym, którą następnie można przekształcić w więcej nici. Pająki również upuszczają nić, ale tylko wtedy, gdy nie wystrzeliły jeszcze swojej pajęczyny.
+btw.torch.info=Pochodnie wykonane z węgla mają ograniczoną żywotność jednego dnia (20 minut) od momentu zapalenia. Zgasną po zanurzeniu w wodzie lub pod deszczem, nawet jeśli znajdują się w ekwipunku gracza. Po zgaszeniu nie można ich ponownie zapalić. Zapalone pochodnie mogą również służyć do podpalenia innych przedmiotów, takich jak piece lub inne pochodnie.
+btw.fire_plough.info=Pług ogniowy może rozpalać ogień na blokach takich jak pochodnie, ogniska i piece poprzez przytrzymanie prawego przycisku myszy. Po upływie odpowiedniego czasu pług nagrzeje się wystarczająco, aby rozpalić ogień. Proces zostanie zresetowany po zwolnieniu prawego przycisku myszy. Należy pamiętać, że nie można w ten sposób rozpalać otwartego ognia i konieczne jest posiadanie odpowiedniego bloku docelowego. Aby uzyskać ulepszone urządzenia do rozpalania ognia, zobacz sekcje Łuk ogniowy, Krzesiwo oraz Ładunek ogniowy.
+btw.bow_drill.info=Łuk ogniowy może rozpalać ogień znacznie szybciej niż pług ogniowy na blokach takich jak pochodnie, ogniska i piece poprzez przytrzymanie prawego przycisku myszy. Po upływie odpowiedniego czasu wiertło łukowe nagrzeje się wystarczająco, aby rozpalić ogień. Proces zostanie zresetowany po zwolnieniu prawego przycisku myszy. Należy pamiętać, że nie można w ten sposób rozpalać otwartego ognia i konieczne jest posiadanie odpowiedniego bloku docelowego. Aby uzyskać informacje na temat ulepszonych urządzeń do rozpalania ognia, zobacz sekcje Krzesiwo oraz Ładunek ogniowy.
+btw.flint_and_steel.info=Krzesiwo może rozpalać ogień na blokach takich jak pochodnie, ogniska i piece, ale w przeciwieństwie do pługa ogniowego i łuku ogniowego nie wymagają przytrzymania prawego przycisku myszy. Zamiast tego za każdym razem, gdy są używane, mają szansę na pomyślne rozpalanie ognia. Należy pamiętać, że nie można w ten sposób rozpalać otwartego ognia i konieczne jest posiadanie odpowiedniego bloku docelowego. Aby rozpalić otwarty ogień, zobacz sekcję Ładunki ogniowe.
+btw.fire_charge.info=Ładunki ogniowe są materiałami eksploatacyjnymi, które mogą podpalić każdy łatwopalny blok, a także rozniecić otwarte ogniska, w przeciwieństwie do innych urządzeń do rozpalania ognia.
+
+btw.mortar.info=Glina, kulami szlamu i netherowy szlam mogą być używane do spajania bloków, takich jak luźny bruk lub luźna cegły, aby były one odporne na grawitację. Dozowniki mogą również automatycznie nakładać zaprawę.
+btw.mortar_blocks.info=Luźne bloki można spajać zaprawą z gliny, kulami szklamu i netherowego szlamu, klikając prawym przyciskiem myszy na blok z przedmiotem. Luźne bloki przykleją się na chwilę do tych spajanych zaprawą, dając czas na użycie zaprawy do przyklejenia ich na miejscu. Dozowniki mogą również automatycznie nakładać zaprawę.
+
+btw.axle.info=Osie mogą służyć do przenoszenia mocy mechanicznej. Osie mogą mieć długość do trzech bloków, po czym wymagają skrzyni biegów, aby kontynuować pracę.
+btw.gearbox.info=Skrzynie biegów mogą służyć do przenoszenia energii mechanicznej. Strona ze strzałkami to strona wejściowa, a osie można dodawać do dowolnej innej strony jako stronę wyjściową. Należy pamiętać, że sąsiadujące skrzynie biegów nie mogą przenosić mocy między sobą, między każdą skrzynią biegów musi znajdować się co najmniej jedna oś.
+btw.redstone_clutch.info=Sprzęgła to specjalny rodzaj skrzyni biegów, które można wyłączyć za pomocą energii czerwonego pyłu.
+btw.vertical_windmill.info=Pionowy wiatrak to mechaniczne źródło energii, które wytwarza energię po umieszczeniu na serii osi postawionych pionowo. Pionowy wiatrak podlega tym samym ograniczeniom, co standardowy wiatrak w nadziemiu, ale jest jedynym mechanicznym źródłem energii, które działa w Netherze.
+btw.water_wheel.info=Koło wodne to mechaniczne źródło energii, które generuje energię po umieszczeniu na osi z płynącą wodą. Koło wodne jest również jedynym źródłem energii, które działa w Endzie, gdzie źródła wody można umieszczać dowolnie.
+btw.windmill.info=Wiatrak to źródło energii mechanicznej, które wytwarza energię, gdy jest umieszczony na osi i ma widok na niebo. Wiatraki są dość duże, więc ważne jest, aby zapewnić im wystarczającą ilość miejsca. Mają na nie wpływ burze z piorunami i mogą uszkodzić podłączone do nich urządzenia mechaniczne podczas burzy, chyba że zostaną odłączone za pomocą sprzęgła.
+
+btw.bellows.info=Miechy mogą być używane do rozpalania pola 3x3 bloków hibaczi znajdującego się przed nim. Wymaga to włączania i wyłączania zasilania mechanicznego, aby miechy mogły się rozszerzać i kurczyć, wypychając powietrze przed siebie, zazwyczaj za pomocą obrotnicy regulującej czas. Miechy mogą być również używane do sortowania przedmiotów poprzez wypychanie przedmiotów o różnej wadze na różne odległości podczas dmuchania.
+btw.cauldron.info=Kotły mogą być używane do przetwarzania produktów, takich jak żywność, bez użycia paliwa, wymagając jedynie ognia pod spodem. Mogą być zasilane przez ogniska lub zwykły ogień, a prędkość przetwarzania wzrasta wraz z większą ilością ognia, do 3x3 pod kotłem. Rozpalone hibaczi mogą być używane do odblokowywania różnych receptur, które wymagają większej ilości ciepła. Energia mechaniczna może być zastosowana do przechylenia kotła i rozlania jego zawartości.
+btw.crucible.info=Tygle działają podobnie jak kotły, z tą różnicą, że do działania wymagają podsycania ognia. Podobnie jak kotły i piece, im większy ogień, tym szybciej przetwarzają receptury, maksymalnie do 3x3. Można użyć siły mechanicznej, aby przechylić tygiel i wylać jego zawartość.
+btw.dormant_soulforge.info=W każdej Netherowej fortecy można znaleźć uśpione kowadło dusz. Więcej można stworzyć za pomocą aktywnego kowadłe z stali dusz, ale pierwszą z nich należy znaleźć w fortecy.
+btw.dragon_vessel.info=Naczynie smoka może służyć do przechowywania dużych ilości doświadczenia. Można je opróżnić, poddając naczynie działaniu siły mechanicznej, przechylając je i rozlewając całe zgromadzone doświadczenie. Naczynie smoka można znaleźć tylko w dżunglowych świątyniach.
+btw.dynamite.info=Dynamit to rzucany materiał wybuchowy, który można zapalić, rzucając go za pomocą krzemienia i stali z paska szybkiego dostępu lub wystrzeliwując go z dozownika bądź dozownika bloków. Po wrzuceniu do wody dynamit może służyć do łowienia ryb, pozwalając złowić dużą liczbę ryb jednocześnie.
+btw.hand_crank.info=Korba ręczna może być używana do mechanicznego napędzania niektórych prostych maszyn znajdujących się w pobliżu korby, kosztem dużej ilości głodu przy każdym obrocie. W ten sposób można napędzać kamień młyński i miechy, a kotły, tygle i naczynia smoka można przechylać, aby wyrzucić ich zawartość.
+btw.hibachi.info=Hibaczi wytwarzają ogień po podłączeniu do czerwonego proszku, który jest wystarczająco stabilny, aby można go było podsycać. Jednym miechem można podsycać do 9 hibaczi w układzie 3 na 3.
+btw.kiln.info=Bloki cegieł można ułożyć w piec do ceramiki w celu wypalania ceramiki i lepszego wytapiania. Umieść jeden blok cegieł nad rozpalonym Hibaczi, a następnie umieść trzy kolejne, otaczające pusty blok nad pierwszym blokiem ceglieł. Dokładny układ nie ma znaczenia. Piece mogą być zasilane przez maksymalnie dziewięć Hibazhi w układzie 3 na 3, a prędkość wzrasta wraz z liczbą Hibaczi.
+btw.millstone.info=Kamienie młyńskie mogą być używane do przetwarzania materiałów poprzez mielenie. Kamień młyński może być zasilany za pomocą korby ręcznej bądź automatyczną energią mechaniczną od góry lub od dołu. Może pomieścić tylko jeden przedmiot, więc wymaga zasilanego leja nad nim, aby automatycznie wkładać więcej przedmiotów. Po zakończeniu mielenia zmielony przedmiot jest wyrzucany losowo wokół niego, więc wszystkie strony kamienia młyńskiego muszą być wolne od przeszkód.
+btw.piston_shovel.info=Łopata tłokowa może być używana do podnoszenia miękkich lub luźnych bloków poprzez wciśnięcie łopaty w blok za pomocą tłoka. Podnosi to blok w stanie nienaruszonym, tak jakby był pokryty jedwabnym dotykiem, i jako taki może być używany na przykład do podnoszenia trawy.
+btw.planter.info=Donice mogą być używane do uprawy roślin bez chwastów. Sadzarki muszą być nawadniane, podobnie jak pola uprawne, ale działają nieco inaczej. Donice mogą być nawadniane tylko wodą znajdującą się bezpośrednio obok nich, ale mogą być nawadniane od dołu.
+btw.saw.info=Piła może być używana do cięcia drewnianych bloków, gdy jest zasilana energią mechaniczną. Może być również używana do niszczenia wszelkich obiektów, które się z nią zetkną, i jest bardzo skuteczna jako mechanizm zabijający w farmach mobów. Efektywność tę można zwiększyć, wciskając tnący blok w piłę, co zwiększa obrażenia, a także częstotliwość wypadania głów.
+btw.screw_pump.info=Pompy śrubowe mogą być używane do podnoszenia poziomu wody o jeden blok. Gdy są zasilane mechanicznie, pompy śrubowe przemieszczają wodę wpływającą do przedniej części o jeden blok w górę, wyrzucając ją przez górną część.
+btw.soul_urn.info=Receptury filtrowania dusz mogą być wykonywane bez obecności urny, ale spowoduje to uwolnienie dusz do środowiska. Rzucenie urną dusz również spowoduje uwolnienie zawartych w niej dusz. W tym drugim przypadku może to zapewnić pożywienie dla roślin opartych na duszach, takich jak netherową grzybnie lub krwawe drzewa, a także przywrócić duszę osadnikowi zombie. Jednak wystawienie na dusze może mieć negatywny wpływ na wiele pasywnych mobów, a także kałamarnice.
+btw.soulforge.info=Kowadło dusz służy do tworzenia szczególnie zaawansowanych receptur rzemieślniczych i umożliwia dostęp do pola rzemiosła 4x4. Kowadło dusz musi zostać stworzona z uśpionego kowadła dusz, którą można znaleźć w każdej fortecy w Netherze. Więcej można stworzyć za pomocą aktywnego kowadła dusz, ale pierwszą z nich należy znaleźć w fortecy.
+btw.turntable.info=Koło garncarskie obraca dwa bloki znajdujące się nad nią oraz wszystko, co jest do nich przymocowane, np. pochodnie. Kola garncarskie mogą być używane z czerwonymi pochodniami jako stoper lub do tworzenia złożonych sekwencji, a także do kształtowania bloków gliny w ceramikę. Kliknij prawym przyciskiem myszy pustą ręką, aby zmienić prędkość między 1/2 sekundy, 1 sekundą, 2 sekundami i 4 sekundami.
+btw.mining_charge.info=Ładunek wybuchowy to materiał wybuchowy, który jest łatwiejszy do kontrolowania niż beczki z prochem. Ładunki wybuchowe można przymocować do dowolnej powierzchni i wybuchają one w ustalony sposób w kierunku tej powierzchni. Bloki zniszczone w wyniku wybuchu zawsze upuszczają swoje przedmioty i zazwyczaj upuszczają je tak samo, jak gracz je wydobył.
+btw.buddy_block.info=Obserwator może być używany do wysyłania sygnału czerwonego pyłu na podstawie aktualizacji bloków. Każda aktualizacja bloku odebrana przez obserwator spowoduje wysłanie impulsu czerwonego pyłu do jego wyjścia.
+btw.block_dispenser.info=Dozownik bloków może służyć do automatycznego umieszczania i niszczenia bloków. Dozownik bloków umieszcza blok ze swojego ekwipunku po otrzymaniu zasilania czerwonego pyłu, a po odłączeniu zasilania zbiera blok znajdujący się przed nim, tak jakby używał jedwabnego dotyku. Dozownik bloków umieszcza bloki ze swojego ekwipunku w kolejności i posiada wskaźnik w ekwipunku, który pokazuje, który przedmiot zostanie umieszczony jako następny. Dozowniki bloków mogą również zasysać kurczaki i wilki oraz zdzierać wełnę z owiec.
+btw.detector_block.info=Detektor bloków emituje energię Redstone, gdy przed nim znajduje się blok lub obiekt. Można go również połączyć z soczewką, aby zwiększyć zasięg wykrywania, przesyłać energię czerwonego proszku bezprzewodowo lub wykrywać poziom oświetlenia.
+btw.lens.info=Soczewka skupia źródło światła umieszczonego za nią źródła. Każdy blok bądź mob, który przerwie tę wiązkę, spowoduje jej zakończenie, oświetlając dany obszar. Wiązka z soczewki może być wykryta przez detektor bloków, umożliwiając bezprzewodową transmisję sygnałów czerwonego pyłu lub wykorzystanie wiązki soczewki jako linki pułapkowej. Dodatkowo soczewka bez źródła światła skierowanego bezpośrednio na detekor bloków będzie działać jako detektor poziomu światła, emitując moc o poziomie światła 8 lub wyższym
+btw.wooden_detector_rail.info=Drewniane tory z czujnikiem nie wykryją żadnego wagonika.
+btw.stone_detector_rail.info=Kamienne tory z czujnikiem wykrywa wagoniki z dowolnym ładunkiem (w tym mobami lub skrzyniami), ale nie wykrywa pustych wagoników.
+btw.steel_detector_rail.info=Stalowe tory z czujnikiem wykrywa tylko wagoniki z graczem.
+btw.wooden_pressure_plate.info=Drewniana płyta naciskowa wykrywa jakiekolwiek moby i przedmioty.
+btw.stone_pressure_plate.info=Kamienna płyta naciskowa wykrywa tylko większe moby i nie wykryje przedmiotów.
+btw.steel_pressure_plate.info=Stalowa płytka naciskowa wykryje wyłącznie gracza.
+btw.light_block.info=Blok światła to źródło światła, które można aktywować za pomocą energii czerwonego pyłu, ale które jest silniejsze niż standardowa lampa. Chociaż emitują one ten sam poziom światła, blok światła może zastąpić światło słoneczne, umożliwiając wzrost konopi i pszenicy pod ziemią, gdy zostanie umieszczony bezpośrednio nad roślinami (dwa bloki nad polem uprawnym).
+btw.loom.info=Krosno służy do splatania wielu przedmiotów w nowe. Każde krosno może pomieścić dokładnie jeden przedmiot, dlatego należy je ustawiać obok siebie, aby połączyć je i przetwarzać wiele przedmiotów jednocześnie. Łączą się wyłącznie krosna zasilane, co pozwala na tworzenie dynamicznych konfiguracji, w których liczbę połączonych krosien można zmieniać w celu przetwarzania innych receptur.
+
+btw.hopper.info=Leje zbierają przedmioty, które przechodzą nad nimi, a gdy są zasilane mechanicznie, wyrzucają przedmioty na dno. Lejki nie mogą jednak pobierać przedmiotów z ekwipunku, a jedynie ze świata. Podniesione przedmioty można filtrować, umieszczając w slocie odpowiedni filtr. Dostępne filtry to: drabiny, żelazne kraty, ruszt, listwy, wiklina i piasek duszy. Niektóre filtry mogą służyć do oddzielania lub przekształcania przedmiotów, które przez nie przechodzą. Więcej informacji można znaleźć w opisie każdego z filtrów.
+btw.ladder.info=Jako filtr w leju, drabiny przepuszczają przedmioty i zatrzymują bloki.
+btw.iron_bars.info=Jako filtr w leju, żelazne kraty przepuszczają przedmioty które można stackować.
+btw.trapdoor.info=Jako filtr w leju, zapadnie przepuszczą małe bądź długie przedmioty, take jak kości czy patyki.
+btw.grate.info=Jako filtr w leju, ruszt przepuszcza małe przedmioty, takie jak kulki gliny lub węgiel. //Jako filtr w leju,
+btw.slats.info=Jako filtr w leju, listwy przepuszczą cienkie przedmioty, takie jak papier lub nić.
+btw.wicker_pane.info=Jako filtr w leju, wiklina przepuści drobne przedmioty bądź proszki, takie jak nasiona lub cukier.
+btw.soul_sand.info=Piasek dusz może służyć jako unikatowy filtr do oddzielania dusz od przedmiotów, które je zawierają, takich jak rozdrobniony netherrack. Filtry z piasku dusz mogą być również używane do przechowywania doświadczenia oraz do przekształcania smoczych kul (czerwonego doświadczenia) w doświadczenie, które można wykorzystać. Filtrowanie dusz bez urn do ich przechwytywania może spowodować opętanie pobliskich mobów.
+
+btw.arcane_scroll.info=Tajemne zwoje mogą być używane wraz z piekielnym stołem do zaklęć w celu nałożenia określonych zaklęć na przedmioty. Większość tajemnych zwojów to rzadkie łupy z mobów, przy czym każdy rodzaj moba ma swoje własne zaklęcie, które może upuścić. Osadnicy poziomu 5 również mają unikalne zwoje, które sprzedają.
+btw.brewing_stand.info=Statyw alchemiczny można znaleźć wyłącznie w chatach wiedźm.
+btw.enchanter.info=Stół do zaklęć ma ograniczone możliwości zaklinania i może nakładać zaklęcia tylko do poziomu 15. Aby osiągnąć maksymalną moc, w pobliżu musi znajdować się 30 biblioteczek. Stół zaklinający można znaleźć tylko w pustynnych świątyniach.
+btw.infernal_enchanter.info=Piekielny stół do zaklęć pozwala na nakładanie dowolnych zaklęć za pomocą tajemnych zwojów. Każde nakładane zaklęcie wymaga 30 poziomów, plus dodatkowe 30 poziomów za każde zaklęcie już nałożone na przedmiot, do maksymalnej liczby 4 zaklęć. Piekielny stół do zaklęć wymaga jedne biblioteczki na każdy poziom w sześcianie o wymiarach 17x17x17, którego środek znajduje się w miejscu, gdzie stoi ten stół, co oznacza, że do osiągnięcia maksymalnej skuteczności potrzeba 120 biblioteczek.
+
+btw.beacon.info=Magiczne latarnie zapewniają różny efekt w zależności od materiału, z którego zbudowana jest piramida. Magiczne latarnie mogą działać w Netherze, jeśli widzą skałę macierzystą. Bloki które można używać do konstrukcji piramidy to: skoncentrowany ogień piekielny, diament, odchody, szmaragd, blok enderu, szkło, glowstone, złoto, żelazo, lazuryt, oko pająka i stal dusz. Informacje na temat poszczególnych efektów można znaleźć na stronie każdego bloku w zakładce "informacje".
+btw.concentrated_hellfire_block.info=Gdy są użyte jako material do budowy piramidy magicznej latarni, bloki skoncentrowanych ognii piekielnych zapewniają odporność na ogień wszystkim graczom znajdującym się w pobliżu.
+btw.diamond_block.info=Gdy są użyte jako material do budowy piramidy magicznej latarni, bloki diamentów zapewniają efekt Fortuny wszystkim graczom w pobliżu. Siła efektu rośnie wraz z ilością warstw piramidy, osiągając maksimum na poziomie IV.
+btw.dung_block.info=Gdy są użyte jako material do budowy piramidy magicznej latarni, bloki odchodów powodują mdłości u wszystkich graczy znajdujących się w pobliżu. Można temu zapobiec, zakładając pełny zestaw zbroi z stali dusz.
+btw.emerald_block.info=Gdy są użyte jako material do budowy piramidy magicznej latarni, bloki szmaragdów zapewniają wszystkim graczom w pobliżu zdolność grabieży, a także stosują ją do łupów wszystkich zabitych mobów w pobliżu, nawet tych, które nie zostały zabite przez graczy. Siła zdolności Grabieży rośnie wraz z poziomem piramidy. osiągając maksimum na poziomie Grabież IV.
+btw.ender_block.info=Gdy są użyte jako material do budowy piramidy magicznej latarni, bloki enderów zwiększają liczbę pojawiających się endermenów, a także powodują pojawianie się rybików cukrowych w Endzie. Umożliwiają również dostęp do skrzyń kresu, które zachowują się różnie w zależności od ilości warstw w piramidzie, na której skrzynia jest umieszczona. 3x3 i 5x5 to publiczne ekwipunki dla danego wymiaru. 7x7 to publiczny ekwipunek międzywymiarowy. 9x9 to prywatny ekwipunek dla poszczególnych graczy.
+btw.ender_chest.info=Skrzynie kresu wymagają do działania piramid wykonanych z bloków enderu i zachowują się różnie w zależności od ilości warstw piramidy, na której skrzynia jest umieszczona. Skrzynie 3x3 i 5x5 są publicznymi ekwipunekami dla danego wymiaru. Skrzynia 7x7 to publiczny ekwipunek międzywymiarowy, a skrzynia 9x9 to prywatny ekwipunek dla poszczególnych graczy.
+btw.glass.info=Gdy są użyte jako material do budowy piramidy magicznej latarni, szkło nie zapewnia żadnego efektu, wtedy taka piramida służy jedynie jako dekoracja.
+btw.glowstone.info=Gdy są użyte jako material do budowy piramidy magicznej latarni, bloki glowstone zapewniają wszystkim pobliskim graczom widzenie w nocy.
+btw.gold_block.info=Gdy są użyte jako material do budowy piramidy magicznej latarni, bloki złota zapewniają wszystkim graczom w pobliżu efekt przyspieszenie. Siła efektu rośnie wraz z poziomem piramidy, osiągając maksimum przy efekcie przyspieszenie IV.
+btw.iron_block.info=Gdy są użyte jako material do budowy piramidy magicznej latarni, bloki żelaza przekierowują kompasy w zasięgu. Zasięg żelaznych piramid jest znacznie większy niż w przypadku zwykłych piramid i staje się nieskończony w tym samym wymiarze na poziomie 4.
+btw.lapis_block.info=Gdy są użyte jako material do budowy piramidy magicznej latarni, bloki lazurytu zapewniają wszystkim graczom w pobliżu zdolność prawdziwego widzenia, która pozwala graczowi zobaczyć, gdzie mogą pojawić się potwory, a także sprawdzić, które chunki są zawsze ładowane w okolicy spawnu.
+btw.spider_eye_block.info=Gdy są użyte jako material do budowy piramidy magicznej latarni, bloki pajęczych oczu zapobiegają pojawianiu się tropikalnych pająków w zasięgu działania.
+btw.steel_block.info=Bloki z stali dusz są odporne na działanie Withera, dzięki czemu można je wykorzystać do jego uwięzienia w celu jego łatwego zabicia. Dodatkowo, gdy są używane jako materiał do budowy piramidy magicznej latarni, bloki z stali dusz działają jak kotwica, pozwalając graczowi ustawić miejsce odrodzenia i odrodzić się przy latarni, jeśli zginie wystarczająco blisko niej. Zasięg jest ograniczony dla dwóch pierwszych poziomów, podczas gdy poziom 3 jest nieograniczony w obrębie tego samego wymiaru, a poziom 4 jest nieograniczony między wymiarami.
+
+btw.bow.info=Łuk może strzelać zgniłym i normalnym strzałami, ale jest zbyt słaby, aby wystrzelić strzały z szerokimi grotami. Łuki wymagają strzał na pasku szybkiego dostępu, aby strzelać, i mogą być zaklinane tylko na piekielnym stole do zaklęć.
+btw.composite_bow.info=Łuk kompozytowy jest mocniejszą wersją łuku, który strzela zwykłymi strzałami dalej i szybciej oraz jest w stanie strzelać potężniejszymi strzałami z szerokimi grotami, chociaż szerokie groty nie mają takiego zasięgu jak standardowe strzały. Jednak łuk kompozytowy jest zbyt potężny, aby strzelać zgniłym strzałami, które natychmiast się rozpadną. Łuki wymagają strzał na pasku szybkiego dostępu, aby strzelać, i mogą być zaklinane tylko na piekelnym stole do zaklęć.
+btw.rotten_arrow.info=Zgniłe strzały, upuszczane przez szkielety, są znacznie słabsze od standardowych strzał. Zadają znacznie mniejsze obrażenia, lecą na krótszą odległość, łamią się po uderzeniu w blok i rozpadają się podczas próby wystrzelenia z łuku kompozytowego.
+
+btw.blood_wood.info=Krwawe drzewa mogą rosnąć wyłącznie w Netherze na piasku dusz i rosną znacznie szybciej niż inne drzewa. Rosną nieprzerwanie, wypełniając przestrzeń, w której się znajdują, nawet po osiągnięciu dojrzałości przez sadzonkę. Sadzonki krwawego drewna automatycznie się sadzą, jeśli spadną na piasek dusz.
+btw.chopping_block.info=Tnący blok można wykorzystać, wciskając go obok piły, aby zwiększyć obrażenia zadawane przez piłę istotom, a także zwiększyć częstotliwość wypadania głów z potworów.
+btw.companion_cube.info=Sześciennego kompana można stworzyć, zasysając wilka dyspenserem bloków.
+btw.corpse_eye.info=Oczy nieboszczyka mogą być używane w podobny sposób jak Oczy Enderu, aby znaleźć miejsce ostatniej śmierci gracza. Oczy nieboszczyka mogą być użyte pięć razy, zanim się zniszczą.
+btw.groth.info=Netherowa grzybnia rośnie na Netherracku i szybko się rozprzestrzenia, uniemożliwiając pojawianie się mobów i zadając obrażenia wszystkim istotom, które na niego wejdą. Dojrzała grzybnia po złamaniu rozprzestrzenia również trujące zarodniki. Stalowe buty pozwalają chodzić po netherowym proście bez ponoszenia obrażeń, a pełny zestaw stalowej zbroi chroni przed trucizną zawartą w zarodnikach.
+btw.portal.info=Portale do Netheru muszą być rozpalane za pomocą ogniska lub ładunku ogniowego. Portale aktywnie rozprzestrzeniają dusze w promieniu 16 bloków, negatywnie wpływając na pobliskie pasywne moby, a także kałamarnice.
+
+screenshot.success=Zapisano zrzut ekranu jako %s
+screenshot.failure=Nie udało się zapisać zrzutu ekranu: %s
