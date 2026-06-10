@@ -269,7 +269,7 @@ emi.chess.multiplayer.unavailable=%s nie może grać w szachy
 
 emi.cooking.time=%s Sekund
 emi.fuel_time.items=Pali się przez %s
-emi.btw.bulk.stoked=Wymaga rozpalonego hibaczi
+emi.btw.bulk.stoked=Wymaga rozpalonego hibachi
 emi.btw.turntable.turns=Musi być obrócone %d razy
 emi.btw.turntable.ejected_items=Wyrzucone gdy się obróci wystarczająco razy
 emi.btw.progressive.time=Przytrzymaj prawy przycisk myszy
@@ -869,7 +869,7 @@ emi.info.filter_output=Przefiltrowany produkt
 
 emi.info.kiln.cycle=Zmień konfiguracje
 
-emi.info.stoked=Wymaga rozpalonego hibaczi
+emi.info.stoked=Wymaga rozpalonego hibachi
 emi.info.mechanical=Wymaga energii mechanicznej
 emi.info.fist=Pięść
 
@@ -912,22 +912,22 @@ btw.fire_charge.info=Ładunki ogniowe są materiałami eksploatacyjnymi, które 
 btw.mortar.info=Glina, kulami szlamu i netherowy szlam mogą być używane do spajania bloków, takich jak luźny bruk lub luźna cegły, aby były one odporne na grawitację. Dozowniki mogą również automatycznie nakładać zaprawę.
 btw.mortar_blocks.info=Luźne bloki można spajać zaprawą z gliny, kulami szklamu i netherowego szlamu, klikając prawym przyciskiem myszy na blok z przedmiotem. Luźne bloki przykleją się na chwilę do tych spajanych zaprawą, dając czas na użycie zaprawy do przyklejenia ich na miejscu. Dozowniki mogą również automatycznie nakładać zaprawę.
 
-btw.axle.info=Osie mogą służyć do przenoszenia mocy mechanicznej. Osie mogą mieć długość do trzech bloków, po czym wymagają skrzyni biegów, aby kontynuować pracę.
-btw.gearbox.info=Skrzynie biegów mogą służyć do przenoszenia energii mechanicznej. Strona ze strzałkami to strona wejściowa, a osie można dodawać do dowolnej innej strony jako stronę wyjściową. Należy pamiętać, że sąsiadujące skrzynie biegów nie mogą przenosić mocy między sobą, między każdą skrzynią biegów musi znajdować się co najmniej jedna oś.
-btw.redstone_clutch.info=Sprzęgła to specjalny rodzaj skrzyni biegów, które można wyłączyć za pomocą energii czerwonego pyłu.
+btw.axle.info=Wały mogą służyć do przenoszenia energii mechanicznej. Wały mogą mieć długość do trzech bloków, po czym wymagają przekładni, aby się nie zniszczyły.
+btw.gearbox.info=Przekładnie mogą służyć do przenoszenia energii mechanicznej. Strona ze strzałkami to strona wejściowa, a wały można dodawać do dowolnej innej strony jako stronę wyjściową. Należy pamiętać, że sąsiadujące przekładnie nie mogą przenosić energii mechanicznej między sobą, dlatego między każdą przekładnią musi znajdować się co najmniej jeden wał.
+btw.redstone_clutch.info=Sprzęgła to specjalny rodzaj przekładni, które można wyłączyć za pomocą energii czerwonego pyłu.
 btw.vertical_windmill.info=Pionowy wiatrak to mechaniczne źródło energii, które wytwarza energię po umieszczeniu na serii osi postawionych pionowo. Pionowy wiatrak podlega tym samym ograniczeniom, co standardowy wiatrak w nadziemiu, ale jest jedynym mechanicznym źródłem energii, które działa w Netherze.
 btw.water_wheel.info=Koło wodne to mechaniczne źródło energii, które generuje energię po umieszczeniu na osi z płynącą wodą. Koło wodne jest również jedynym źródłem energii, które działa w Endzie, gdzie źródła wody można umieszczać dowolnie.
 btw.windmill.info=Wiatrak to źródło energii mechanicznej, które wytwarza energię, gdy jest umieszczony na osi i ma widok na niebo. Wiatraki są dość duże, więc ważne jest, aby zapewnić im wystarczającą ilość miejsca. Mają na nie wpływ burze z piorunami i mogą uszkodzić podłączone do nich urządzenia mechaniczne podczas burzy, chyba że zostaną odłączone za pomocą sprzęgła.
 
-btw.bellows.info=Miechy mogą być używane do rozpalania pola 3x3 bloków hibaczi znajdującego się przed nim. Wymaga to włączania i wyłączania zasilania mechanicznego, aby miechy mogły się rozszerzać i kurczyć, wypychając powietrze przed siebie, zazwyczaj za pomocą obrotnicy regulującej czas. Miechy mogą być również używane do sortowania przedmiotów poprzez wypychanie przedmiotów o różnej wadze na różne odległości podczas dmuchania.
-btw.cauldron.info=Kotły mogą być używane do przetwarzania produktów, takich jak żywność, bez użycia paliwa, wymagając jedynie ognia pod spodem. Mogą być zasilane przez ogniska lub zwykły ogień, a prędkość przetwarzania wzrasta wraz z większą ilością ognia, do 3x3 pod kotłem. Rozpalone hibaczi mogą być używane do odblokowywania różnych receptur, które wymagają większej ilości ciepła. Energia mechaniczna może być zastosowana do przechylenia kotła i rozlania jego zawartości.
-btw.crucible.info=Tygle działają podobnie jak kotły, z tą różnicą, że do działania wymagają podsycania ognia. Podobnie jak kotły i piece, im większy ogień, tym szybciej przetwarzają receptury, maksymalnie do 3x3. Można użyć siły mechanicznej, aby przechylić tygiel i wylać jego zawartość.
-btw.dormant_soulforge.info=W każdej Netherowej fortecy można znaleźć uśpione kowadło dusz. Więcej można stworzyć za pomocą aktywnego kowadłe z stali dusz, ale pierwszą z nich należy znaleźć w fortecy.
-btw.dragon_vessel.info=Naczynie smoka może służyć do przechowywania dużych ilości doświadczenia. Można je opróżnić, poddając naczynie działaniu siły mechanicznej, przechylając je i rozlewając całe zgromadzone doświadczenie. Naczynie smoka można znaleźć tylko w dżunglowych świątyniach.
+btw.bellows.info=Miechy mogą być używane do rozpalania pola 3 na  3 bloków hibachi znajdującego się przed nim. Wymaga to włączania i wyłączania zasilania mechanicznego, aby miechy mogły się rozszerzać i kurczyć, wypychając powietrze przed siebie, zazwyczaj za pomocą obrotnicy regulującej czas. Miechy mogą być również używane do sortowania przedmiotów poprzez wypychanie przedmiotów o różnej wadze na różne odległości podczas dmuchania.
+btw.cauldron.info=Kotły mogą być używane do przetwarzania produktów, takich jak żywność, bez użycia paliwa, wymagając jedynie ognia pod spodem. Mogą być zasilane przez ogniska lub zwykły ogień, a prędkość przetwarzania wzrasta wraz z większą ilością ognia, do 3 na 3 pod kotłem. Rozpalone hibachi mogą być używane do odblokowywania różnych receptur, które wymagają większej ilości ciepła. Energia mechaniczna może być zastosowana do przechylenia kotła i rozlania jego zawartości.
+btw.crucible.info=Tygle działają podobnie jak kotły, z tą różnicą, że do działania wymagają rozpalonego ognia. Podobnie jak kotły i piece, im większy ogień, tym szybciej przetwarzają receptury, maksymalnie do 3 na 3. Można użyć siły mechanicznej, aby przechylić tygiel i wylać jego zawartość.
+btw.dormant_soulforge.info=W każdej Netherowej fortecy można znaleźć uśpione kowadło dusz. Więcej można stworzyć za pomocą aktywnego kowadła dusz, ale pierwszą z nich należy znaleźć w fortecy.
+btw.dragon_vessel.info=Smocze naczynie może służyć do przechowywania dużych ilości doświadczenia. Można je opróżnić, poddając naczynie działaniu siły mechanicznej, przechylając je i rozlewając całe zgromadzone doświadczenie. Smocze naczynie można znaleźć tylko w dżunglowych świątyniach.
 btw.dynamite.info=Dynamit to rzucany materiał wybuchowy, który można zapalić, rzucając go za pomocą krzemienia i stali z paska szybkiego dostępu lub wystrzeliwując go z dozownika bądź dozownika bloków. Po wrzuceniu do wody dynamit może służyć do łowienia ryb, pozwalając złowić dużą liczbę ryb jednocześnie.
 btw.hand_crank.info=Korba ręczna może być używana do mechanicznego napędzania niektórych prostych maszyn znajdujących się w pobliżu korby, kosztem dużej ilości głodu przy każdym obrocie. W ten sposób można napędzać kamień młyński i miechy, a kotły, tygle i naczynia smoka można przechylać, aby wyrzucić ich zawartość.
-btw.hibachi.info=Hibaczi wytwarzają ogień po podłączeniu do czerwonego proszku, który jest wystarczająco stabilny, aby można go było podsycać. Jednym miechem można podsycać do 9 hibaczi w układzie 3 na 3.
-btw.kiln.info=Bloki cegieł można ułożyć w piec do ceramiki w celu wypalania ceramiki i lepszego wytapiania. Umieść jeden blok cegieł nad rozpalonym Hibaczi, a następnie umieść trzy kolejne, otaczające pusty blok nad pierwszym blokiem ceglieł. Dokładny układ nie ma znaczenia. Piece mogą być zasilane przez maksymalnie dziewięć Hibazhi w układzie 3 na 3, a prędkość wzrasta wraz z liczbą Hibaczi.
+btw.hibachi.info=Hibachi wytwarzają ogień po podłączeniu do czerwonego proszku, który jest wystarczająco stabilny, aby można go było podsycać. Jednym miechem można podsycać do 9 hibachi w układzie 3 na 3.
+btw.kiln.info=Bloki cegieł można ułożyć w piec do ceramiki w celu wypalania ceramiki i lepszego wytapiania. Umieść jeden blok cegieł nad rozpalonym Hibachi, a następnie umieść trzy kolejne, otaczające pusty blok nad pierwszym blokiem ceglieł. Dokładny układ nie ma znaczenia. Piece mogą być zasilane przez maksymalnie dziewięć Hibachi w układzie 3 na 3, a prędkość wzrasta wraz z liczbą Hibachi.
 btw.millstone.info=Kamienie młyńskie mogą być używane do przetwarzania materiałów poprzez mielenie. Kamień młyński może być zasilany za pomocą korby ręcznej bądź automatyczną energią mechaniczną od góry lub od dołu. Może pomieścić tylko jeden przedmiot, więc wymaga zasilanego leja nad nim, aby automatycznie wkładać więcej przedmiotów. Po zakończeniu mielenia zmielony przedmiot jest wyrzucany losowo wokół niego, więc wszystkie strony kamienia młyńskiego muszą być wolne od przeszkód.
 btw.piston_shovel.info=Łopata tłokowa może być używana do podnoszenia miękkich lub luźnych bloków poprzez wciśnięcie łopaty w blok za pomocą tłoka. Podnosi to blok w stanie nienaruszonym, tak jakby był pokryty jedwabnym dotykiem, i jako taki może być używany na przykład do podnoszenia trawy.
 btw.planter.info=Donice mogą być używane do uprawy roślin bez chwastów. Sadzarki muszą być nawadniane, podobnie jak pola uprawne, ale działają nieco inaczej. Donice mogą być nawadniane tylko wodą znajdującą się bezpośrednio obok nich, ale mogą być nawadniane od dołu.
@@ -992,3 +992,5 @@ btw.portal.info=Portale do Netheru muszą być rozpalane za pomocą ogniska lub 
 
 screenshot.success=Zapisano zrzut ekranu jako %s
 screenshot.failure=Nie udało się zapisać zrzutu ekranu: %s
+
+#EMI translated to Polish by lumiscosity, ported over to BTW's EMI by ceti301/Sontrax and BardRadogost.
