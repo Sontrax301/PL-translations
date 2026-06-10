@@ -15,7 +15,7 @@ tile.fcBlockBuddyBlock.name=Obserwator
 tile.fcBlockKiln.name=Piec przemysłowy
 tile.fcBlockAnvil.name=Kowadło dusz
 tile.fcBlockLightBlock.name=Blok światła
-tile.fcBlockHibachi.name=Hibaczi
+tile.fcBlockHibachi.name=Hibachi
 tile.fcBlockHopper.name=Lej
 tile.fcBlockSaw.name=Piła
 tile.fcBlockPlatform.name=Platforma
@@ -35,9 +35,9 @@ tile.fcBlockMillStone.name=Kamień młyński
 tile.fcBlockAnchor.name=Kotwica
 tile.fcBlockRope.name=Lina
 tile.fcBlockOmniSlab.name=Stary bok
-tile.fcBlockAxle.name=Oś
-tile.fcBlockAxlePowerSource.name=Zasilana oś
-tile.fcBlockGearBox.name=Skrzynia biegów
+tile.fcBlockAxle.name=Wał ziemny
+tile.fcBlockAxlePowerSource.name=Zasilany wał ziemny
+tile.fcBlockGearBox.name=Przekładnia
 tile.fcBlockTurntable.name=Koło garncarskie
 tile.fcBlockBellows.name=Miech
 tile.fcBlockStokedFire.name=Wznieciony ogień
@@ -52,6 +52,7 @@ tile.fcBlockPlanter.name=Doniczka na rośliny
 tile.fcBlockPlanter.soulSand.name=Doniczka z piaskiem dusz
 tile.fcBlockVase.name=Waza
 tile.fcBlockDetectorRailWood.name=Drewniane tory z czujnikiem
+tile.detectorRail.name=Kamienne tory z czujnikiem
 tile.fcBlockDetectorRailSoulforgedSteel.name=Stalowe tory z czujnikiem
 tile.fcBlockRottenFlesh.name=Blok mięsa
 tile.fcBlockSoulforgeDormant.name=Uśpione kowadło dusz
@@ -1237,7 +1238,7 @@ achievement.btw.craft_nether_coal=Lepsze pochodnie
 achievement.btw.craft_nether_coal.desc=Stwórz netherowy węgiel
 
 achievement.btw.craft_hibachi=Ogień na żądanie
-achievement.btw.craft_hibachi.desc=Stwórz hibaczi
+achievement.btw.craft_hibachi.desc=Stwórz hibachi
 
 achievement.btw.craft_turntable=W głowie się kręci się wszystko...
 achievement.btw.craft_turntable.desc=Stwórz koło garncarskie
@@ -1246,7 +1247,7 @@ achievement.btw.craft_bellows=Zawiej mi w twarz
 achievement.btw.craft_bellows.desc=Stwórz miech
 
 achievement.btw.stoke_fire=Rozniecanie płomieni
-achievement.btw.stoke_fire.desc=Użyj miecha i hibaczi, aby rozniecić ogień
+achievement.btw.stoke_fire.desc=Użyj miecha i hibachi, aby rozniecić ogień
 
 achievement.btw.spin_pottery=Talent garncarza
 achievement.btw.spin_pottery.desc=Zmień glinę na kole garncarskim w ceramikę
@@ -1458,3 +1459,10 @@ achievement.btw.possess_horse.desc=Opętaj konia
 
 achievement.btw.possess_villager=To jest okropne
 achievement.btw.possess_villager.desc=Opętaj wieśniaka
+
+tile.dirt.name=Ziemia
+tile.sand.name=Piasek
+tile.rose.name=Róża
+tile.flower.name=Mlecz
+
+#Translation done by: Iveolu, ceti301/Sontrax, BardRadogost and Artenix :)
