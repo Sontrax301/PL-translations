@@ -85,7 +85,7 @@ config.emi.group.binds=Atamalar
 config.emi.group.dev=Geliştirici
 
 config.emi.group.binds.crafts=Üretimler
-config.emi.group.binds.cheats=Üretimler
+config.emi.group.binds.cheats=Hileler
 
 config.emi.general.enabled=Etkin
 config.emi.general.cheat_mode=Hile Modu

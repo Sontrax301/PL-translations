@@ -41,7 +41,7 @@ tile.fcBlockGearBox.name=Getriebe
 tile.fcBlockTurntable.name=Drehscheibe
 tile.fcBlockBellows.name=Blasebalg
 tile.fcBlockStokedFire.name=Geschürtes Feuer
-tile.fcBlockUnfiredPottery.name=Ungebrannte Tonwaren
+tile.fcBlockUnfiredPottery.name=Ungebrannte Töpferwaren
 tile.fcBlockUnfiredPottery.crucible.name=Ungebrannter Schmelztiegel
 tile.fcBlockUnfiredPottery.planter.name=Ungebrannter Pflanzentopf
 tile.fcBlockUnfiredPottery.vase.name=Ungebrannte Vase
@@ -101,7 +101,7 @@ tile.fcBlockLogSpikeBirch.name=Birkenholzspitze
 tile.fcBlockLogSpikeJungle.name=Tropenholzspitze
 
 tile.fcBlockTorchIdle.name=Fackel
-tile.fcBlockUnfiredClay.name=Tonblock
+tile.fcBlockUnfiredClay.name=Lehmblock
 tile.fcBlockNetherSludge.name=Netherschlickblock
 tile.fcBlockMyceliumSlab.name=Myzelstufe
 tile.fcBlockBrickLooseStairs.name=Lockere Ziegelsteintreppe
@@ -187,7 +187,7 @@ tile.fcBlockSilverfishStoneBrickMossy.blackstone.name=Befallene bemooste Schwarz
 tile.fcBlockSilverfishStoneCracked.blackstone.name=Befallene rissige Schwarzsteinziegel
 tile.fcBlockSilverfishStoneChiseled.blackstone.name=Befallene Gemeißelte Schwarzsteinziegel
 
-tile.fcBlockClay.name=Tonerz
+tile.fcBlockClay.name=Lehmerz
 tile.fcBlockGrassSlab.name=Grasstufe
 tile.fcBlockBedroll.name=Schlafsack
 tile.fcBlockBedrollOld.name=Schlafsack (Alt)
@@ -429,6 +429,7 @@ tile.fcBlockJackOLantern.name=Kürbislanterne
 
 # Vanilla Blocks Renamed
 
+tile.hayBlock.name=Weizenballen
 tile.dirt.name=Erde
 tile.rose.name=Mohn
 tile.flower.name=Löwenzahn
@@ -684,7 +685,7 @@ item.fcItemWoolKnit.name=Wollstrick
 item.fcItemClubBone.name=Knochenkeule
 item.fcItemMeatCured.name=Gepökeltes Fleisch
 item.fcItemMetalFragment.name=Metallfragment
-item.fcItemPileClay.name=Tonhäufchen
+item.fcItemPileClay.name=Lehmhäufchen
 item.fcItemMeatBurned.name=Verbranntes Fleisch
 item.fcItemChickenFeed.name=Hühnerfutter
 item.fcItemFishHookBone.name=Knochener Angelhaken
@@ -1270,7 +1271,7 @@ achievement.btw.stoke_fire=Das Feuer anfachen
 achievement.btw.stoke_fire.desc=Verwende Hibachis und einen Blasebalg um Feuer anzufachen
 
 achievement.btw.spin_pottery=Töpfertalent
-achievement.btw.spin_pottery.desc=Verwandele Ton auf einer Drehscheibe in etwas Getöpfertes
+achievement.btw.spin_pottery.desc=Verwandele Lehm auf einer Drehscheibe in etwas Getöpfertes
 
 achievement.btw.craft_crucible=Aufbereitungszeit!
 achievement.btw.craft_crucible.desc=Brenne einen ungebrannten Schmelztiegel in einem Brennofen

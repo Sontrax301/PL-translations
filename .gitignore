@@ -9,7 +9,9 @@
 !.github/**
 
 !assets/
+!assets/**
 !assets/**/*.lang
 
 !programmer_art_assets/
+!programmer_art_assets/**
 !programmer_art_assets/**/*.lang
